@@ -11,7 +11,7 @@ namespace LambdaExpressions
     {
         static void Main(string[] args)
         {
-        } 
+        }   
     }
     //Statement Lambdas
 
@@ -24,7 +24,7 @@ namespace LambdaExpressions
             {
                 return book;
             }
-        }
+        } 
         return null;
     };
     string result = statementDelegate(new StreamReader("File.txt"));
